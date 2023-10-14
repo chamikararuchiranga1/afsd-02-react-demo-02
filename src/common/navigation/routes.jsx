@@ -4,6 +4,7 @@ import Dashboard from "../../pages/dashboard/Dashboard.jsx";
 import Item from "../../pages/Item/Item";
 import Home from "../../pages/home/Home.jsx";
 import Student from "../../pages/student/student";
+import Axios from "../../pages/axios/Axios.jsx";
 
 const routes = [
     {
@@ -32,6 +33,13 @@ const routes = [
         key: 'student',
         component: <Student/>,
         path: '/student',
+        icon: <InboxIcon />,
+    },
+    {
+        name: 'Axios',
+        key: 'axios',
+        component: <Axios/>,
+        path: '/axios',
         icon: <InboxIcon />,
     }
 ];
